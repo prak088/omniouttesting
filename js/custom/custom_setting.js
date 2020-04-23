@@ -3,7 +3,7 @@
     // custom_setting.js will not be impacted by upgrade
 
     // NOTE: modify CONNECTED_APP_CONSUMER_KEY to the key of your own Connected App
-    var CONNECTED_APP_CONSUMER_KEY = '3MVG9szVa2RxsqBa5tQyU6.tKh61yiGXNhItGzvNJWh1oJh4fcI4pRlqlx1i2MLagkNovsmbaZfSE5mSZ6rCo';
+    var CONNECTED_APP_CONSUMER_KEY = '3MVG9vtcvGoeH2biP8CrQDH3DLrV.N1GAgkjs_vEMbkdHxg.tyjbS0ObNIGDIvejKV0f8uMJyPn8UneG.BPHG';
     // NOTE: modify SFDC_NAMESPACE to the name space of the Saleforce/Vlocity package you want to invoke, for example, vlocity_cmt
     var SFDC_NAMESPACE = 'vlocity_cmt';
     // modify SCRIPT_DEF_PATH to change the local script def storage path
