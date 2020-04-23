@@ -832,8 +832,7 @@ angular.module('forceng', [])
       console.log('loginURL: ' + loginURL);
       console.log('oauthCallbackURL: ' + oauthCallbackURL);
 
-      var loginWindowURL = loginURL + '/services/oauth2/authorize?client_id=' + appId + '&redirect_uri=' +'http://localhost:1919/OauthRedirect
-'+ '&response_type=token';
+      var loginWindowURL = loginURL + '/services/oauth2/authorize?client_id=' + appId + '&redirect_uri=' + 'http://localhost:1919/OauthRedirect' + '&response_type=token';
       window.open(loginWindowURL, '_blank', 'location=no');
     }
     
