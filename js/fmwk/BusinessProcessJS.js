@@ -18783,7 +18783,7 @@ bpModule.directive('autoSaveforlaterMsg', function ($compile, $templateCache, bp
         if(templateUrl)
         {
             $route.current.templateUrl = templateUrl;
-
+	     console.log('Prakhar ----URL '+templateUrl);
             $rootScope.loading = true;
             $rootScope.loadingMessage = '';
             $timeout(function() {
