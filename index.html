@@ -78,7 +78,7 @@
       </div>
 
       <div id='VlocityBP'>
-        <div ng-if='scriptNotFound1 || scriptNotFound2'
+        <div ng-class="{ scriptNotFound1 scriptNotFound2}" ng-if='scriptNotFound1 || scriptNotFound2'
              ng-include="'vlcSldsScriptNotFound.html'"></div>
         <div class="mask vlc-slds-mask"
              ng-show="loading">
