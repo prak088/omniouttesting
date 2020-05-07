@@ -8,13 +8,13 @@
 
 
 
-<script src="https://acnvlocityoffering.force.com/partner/lightning/lightning.out.js"></script>
+<script src="https://mycompanypartnerportal-developer-edition.ap5.force.com/UrsaMajor/lightning/lightning.out.js"></script>
         <div id="lightning"/>
             <script>
-            $Lightning.use("c:AccountListApp",   
+            $Lightning.use("c:PartnerRegistrationLtngOutApp",   
                            function() {               
                                $Lightning.createComponent(
-                                   "c:AccountListForCommunity",
+                                   "c:partnerRegistraionForm",
                                    { },                 
                                    "lightning",  
                                    function(cmp) {
@@ -22,7 +22,7 @@
                                    }
                                );
                            },
-                           'https://acnvlocityoffering.force.com/partner'  // Community endpoint 
+                           'https://mycompanypartnerportal-developer-edition.ap5.force.com/UrsaMajor'  // Community endpoint 
                           );
 </script>
 
